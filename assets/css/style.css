@@ -1,12 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+/* Placement of the header box */
 
-.nav ul {
-    list-style-type: none;
+
+.Broadt {
+    padding-block:100px,25px,25px.25px;
+    color: rgb(241, 78, 119);
+  
 }
-
 .nav ul li {
     display: inline-block;
+    float: right;
+    background-color:rgb(226, 162, 223);
     margin-left: 100px;
+}
+.Background{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("/assets/images/backround for portfolio.jpg");
+    background-position: center;
+}
+.Web Developer{
+    display: flex;
 }
