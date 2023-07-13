@@ -25,6 +25,7 @@ Developer created a portfolio with no starter code.
 For the developer side instalation would require VS Code. For the user side one would simply go to the web page
 
 ## Usage
+https://briellebroadt.github.io/Portfolio-Challange/
 Nav bar links take you to sections of the website
 ## Screen Shot
 ![portfolio pic](https://github.com/BrielleBroadt/Portfolio-Challange/assets/135186013/d78c5b74-1fce-4875-82c8-b9feed2e4992)
