@@ -1,3 +1,4 @@
+/* variables for color palet throughout styling */
 :root {
     --light: #dadccd;
     --pink: hsl(330, 7%, 12%);
@@ -9,7 +10,8 @@
 .broadt {
     background-color:var(--dark);
     color: var(--light);
-    font-size:35px ;
+    font-size:45px ;
+    text-align: start;
     }
     /* clickable links in nav bar */
     .header nav {
@@ -28,9 +30,11 @@
         align-items: center;
         gap: 1rem;
     }
+    /* image placement */
     .about-me-img{
 width: 30rem;
     }
+    /* image placement */
     .about-me-img img {
         width:100% ;
     }
@@ -38,47 +42,18 @@ width: 30rem;
         padding: 3rem;
         display:flex;
         flex-wrap: wrap;
-        flex-direction: row;
-        
-        
+        flex-direction: row;  
     }
     .about-me-content p{
         padding: 3rem;
         max-width: 70rem; ;
     }
-    .justify-center {
-        justify-content: center;
-      }
-    /* clickable link specifics/styling */
-    .card-column {
-        flex: 1 0 100%;
-        padding: 1.5rem;
-        transition: flex-basis 500ms linear;
-        margin-bottom: 1.5rem;
-      }
-      .card-column {
-        flex: 1 0 100%;
-        padding: 1.5rem;
-        transition: flex-basis 500ms linear;
-        margin-bottom: 1.5rem;
-      }
-      
-      .code-card {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        min-height: 100%;
-        padding: 2rem;
-        color: var(--medium);
-        outline: 2px dashed var(--dark);
-        outline-offset: -2px;
-        transition: all 0.5s ease-in-out;
-      }
-    
+    /* Styling for all anchors */
     a {
         color: var(--dark);
+        padding-left: 20px;
         text-decoration: underline;
-        font-size: 20px;
+        font-size: 30px;
     }
     .header nav ul  {
         display: flex;
@@ -87,50 +62,19 @@ width: 30rem;
  
     }
   body {
-  
-    font-family:BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-      Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     font-size: 1.75rem;
     line-height: 1.5;
     color: var(--dark);
     background-color: var(--light);
+
   }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-bottom: 0.625rem;
-    color: var(--medium);
+  h3 {
+    font-size: 50px;
+    text-decoration:overline;
+    color: var(--medium)
   }
   h1 {
-    /* 4rem = 40px (4 * 10px) */
     font-size: 4rem;
-  }
-  
-  h2 {
-    font-size: 3.5rem;
-  }
-  
-  h3 {
-    font-size: 3rem;
-  }
-  
-  h4 {
-    font-size: 2.5rem;
-  }
-  
-  h5 {
-    font-size: 2rem;
-  }
-  
-  h6 {
-    font-size: 1.5rem;
-  }
-  
-  p {
-    margin-bottom: 1rem;
   }
   .row {
     display: flex;
@@ -162,10 +106,17 @@ width: 30rem;
 }
 /* header 2 in image font styling  */
 h2{
-padding-top: 100px;
-    float: right;
-    background-color:var(--dark);
+    text-align: right;
+    
 color:var(--light);
+}
+h4 { 
+    color:var(--medium);
+ }
+footer{
+    display: flex;
+    justify-content: center;
+   font-size: 30px;
 }
 
 
